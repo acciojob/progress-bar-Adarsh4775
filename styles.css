@@ -1,1 +1,44 @@
 /*  your css code here. If applicable */
+.total{
+	height:100vh;
+     display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:row;
+}
+.circle{
+	width:30px;
+	height:30px;
+	border:4px solid blue;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	border-radius:50%;
+	margin:20px;
+	
+}
+.boot{
+	margin-top:100px;
+	margin-left:-250px;
+}
+
+button{
+	background-color:lightskyblue;
+	border:none;
+	
+	padding:12px;
+	color:white;
+	border-radius:10px;
+	cursor:pointer;
+}
+#prev{
+	margin-left:5px;
+
+#next{
+	margin-left:5px;
+}
+
+button:hover{
+	background-color:red;
+	color:black;
+}
