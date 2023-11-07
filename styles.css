@@ -1,4 +1,7 @@
 /*  your css code here. If applicable */
+body{
+	background-color:whitesmoke;
+}
 .total{
 	height:100vh;
      display:flex;
@@ -15,6 +18,7 @@
 	align-items:center;
 	border-radius:50%;
 	margin:20px;
+	background-color:white;
 	
 }
 .boot{
